@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+.main{ 
+    font-family: 'Karla', sans-serif;
+    padding: 200px 250px;
+    background-color: rgba(0,0,255,0.1);
+}
+.main header{
+    background-color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+
+.main header h1{
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+header h2{
+    font-weight: 300;
+    color: hsl(71, 73%, 54%);
+}
+header h4{
+    color: gray;
+}
+
+.main footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.main footer .first{
+    padding: 10px 30px;
+    padding-bottom: 30px;
+    color: white;
+    display: inline-block;
+    background-color:  hsl(179, 62%, 43%);
+    /* width: 50%; */
+    border-bottom-left-radius: 7px;
+}
+
+.main footer .second{
+    padding: 10px 30px;
+    color: white;
+    display: inline-block;
+    background-color: hsla(179, 62%, 43%, 0.7);
+    /* width: 50%; */
+    border-bottom-right-radius: 7px;
+}
+
+.main footer .first input{
+    color: white;
+    font-weight: 900;
+    background-color:  hsl(71, 73%, 54%);
+    width: 80%;
+    height: 20%;
+    border-radius: 7px;
+}
+.main footer .second ul{
+    list-style-type: none;
+}
+
+.main footer .second ul li{
+
+    font-weight: light;
+    margin: 7px auto;
+}
+
+.main footer .first input[type="submit"]{
+    margin: 20px auto;
+
+}
+
+.big{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .main footer{
+        grid-template-columns: auto;
+    }
+}
